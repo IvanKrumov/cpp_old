@@ -1,12 +1,13 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-    int number;
+    string number;
     cin >> number;
 
-    cout << number % 10 << endl;
+    cout << number << endl;
 
 
     return 0;
