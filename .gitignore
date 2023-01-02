@@ -1,5 +1,5 @@
 /.vscode/
-.vscode/*.json
+/.vscode/*.json
 /.vscode/*
 *.json
 !main.cpp
