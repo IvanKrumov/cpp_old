@@ -15,8 +15,7 @@ int main() {
         if (n2 == 0) {
             cout << "Cannot divide " << n1 << " by zero" << endl;
         } else if (action == "/" && n2 !=0 ) {
-            double n1, n2;
-            result = n1 / n2;
+            double result = double(n1) / double(n2);                // https://stackoverflow.com/questions/37777053/how-to-convert-integer-to-double-implicitly
             cout.setf(ios::fixed);
             cout.precision(2);
             cout << n1 << " " << action << " " << n2 << " = " << result << endl;
