@@ -10,7 +10,7 @@ int main() {
     int lunch_break;
     double total_rest;
     
-    getline(cin, serial);
+    getline(cin, serial);                               // long string with spaces, also add <string> library
     cin  >> time_serial >> lunch_break;
 
     total_rest = time_serial + lunch_break / 8.0 + lunch_break / 4.0;

@@ -1,0 +1,33 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    string text;
+    int n, sum;
+
+    sum = 0;
+
+    getline(cin, text);
+    n = text.length();
+
+    for (int i = 0; i < n; i++ ) {
+        // char letter;
+        // text[i] = letter;
+        if (text[i] == 'a') {
+            sum += 1;
+        } else if (text[i] == 'e') {
+            sum += 2;
+        } else if (text[i] == 'i') {
+            sum += 3;
+        } else if (text[i] == 'o') {
+            sum += 4;
+        } else if (text[i] == 'u') {
+            sum += 5;
+        } 
+    }
+
+    cout << sum << endl;
+
+    return 0;
+}
